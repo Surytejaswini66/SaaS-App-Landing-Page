@@ -7,7 +7,7 @@
   "react-dom": "^18.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm install --legacy-peer-deps && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
